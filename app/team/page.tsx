@@ -30,7 +30,7 @@ type HexItem = {
 const HEX_ITEMS: HexItem[] = [
   {
     name: 'Victor',
-    role: 'Director Creativo',
+    role: 'Director de Arte',
     roleColor: '#D4C84A',
     glowColor: 'rgba(212,200,74,0.55)',
     photo: '/team/victor.jpg',
@@ -39,7 +39,7 @@ const HEX_ITEMS: HexItem[] = [
   },
   {
     name: 'Tino',
-    role: 'Estratega de Marca',
+    role: 'Planning',
     roleColor: '#3D8EE8',
     glowColor: 'rgba(61,142,232,0.55)',
     photo: '/team/tino.jpg',
@@ -48,7 +48,7 @@ const HEX_ITEMS: HexItem[] = [
   },
   {
     name: 'Ricardo',
-    role: 'Tech Lead',
+    role: 'Cuentas',
     roleColor: '#F07030',
     glowColor: 'rgba(240,112,48,0.55)',
     photo: '/team/richi.jpg',
@@ -66,7 +66,7 @@ const HEX_ITEMS: HexItem[] = [
   },
   {
     name: 'Whilmers',
-    role: 'Multimedia',
+    role: 'Producción',
     roleColor: '#3D8EE8',
     glowColor: 'rgba(61,142,232,0.55)',
     photo: '/team/whilmers.jpg',
@@ -75,7 +75,7 @@ const HEX_ITEMS: HexItem[] = [
   },
   {
     name: 'Aracely',
-    role: 'UI / UX',
+    role: 'Redacción',
     roleColor: '#D4C84A',
     glowColor: 'rgba(212,200,74,0.55)',
     photo: '/team/aracely.jpg',
@@ -262,7 +262,7 @@ export default function TeamPage() {
 
       {/* MISSION & VISION */}
       <motion.section
-        className="mx-[5vw] mb-24 bg-bg2 border border-white/5 rounded-[20px] py-12 px-[clamp(28px,52px,52px)] grid grid-cols-1 md:grid-cols-[1fr_auto] gap-10 items-center relative overflow-hidden"
+        className="mx-[5vw] mb-24 bg-bg2 border border-white/5 rounded-[20px] py-12 px-7 md:px-[52px] grid grid-cols-1 md:grid-cols-[1fr_auto] gap-10 items-center relative overflow-hidden"
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-40px' }}

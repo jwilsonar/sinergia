@@ -202,7 +202,7 @@ export default function HomePage() {
                 Nuestros Servicios
               </a>
             </div>
-            <div className="flex gap-10 mt-[52px] pt-10 border-t border-white/10 justify-center md:justify-start text-left">
+            <div className="flex flex-wrap gap-6 md:gap-10 mt-[52px] pt-10 border-t border-white/10 justify-center md:justify-start text-left">
               <div>
                 <div className="text-[1.8rem] font-black tracking-[-0.03em] text-blue">50+</div>
                 <div className="text-[0.78rem] text-fg/55 font-medium mt-0.5">Proyectos Lanzados</div>
@@ -258,7 +258,7 @@ export default function HomePage() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(min(300px,100%),1fr))] gap-8">
           {PAIN_POINTS.map((pt, i) => (
             <motion.div 
               key={i} 
@@ -286,7 +286,7 @@ export default function HomePage() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(min(300px,100%),1fr))] gap-8">
           {SERVICES.map((svc, i) => (
             <motion.div 
               key={svc.num} 
