@@ -72,5 +72,33 @@ export const PROJECTS: Project[] = [
       '/images/projects/senor_anillos/Señor_Anillos_3.jpg'
     ],
     delay: 0.08,
+  },
+  {
+    id: 3,
+    slug: 'independiente',
+    span: 'col-span-12 md:col-span-8',
+    hoverShadow: 'hover:shadow-[0_20px_60px_rgba(225,29,72,0.18)]',
+    tags: ['marca', 'diseño'],
+    bg: 'bg-[#181818]',
+    hexStroke: '#E11D48',
+    hexSize: 200,
+    hexInner: true,
+    thumbLabel: 'identidad de marca · diseño visual',
+    tagColor: 'text-[#E11D48] border-[rgba(225,29,72,0.3)] bg-[rgba(225,29,72,0.08)]',
+    tagLabels: ['Marca', 'Diseño'],
+    year: '2026',
+    title: 'Independiente — Identidad Visual',
+    desc: 'Desarrollo de identidad y concepto de marca. Una aproximación fresca y moderna para destacar la fuerza creativa y visión del proyecto.',
+    image: '/images/projects/independiente/Relleno_1.jpg.jpeg',
+    gallery: [
+      '/images/projects/independiente/Relleno_1.jpg.jpeg',
+      '/images/projects/independiente/Relleno_2.jpg.jpeg',
+      '/images/projects/independiente/Relleno_3.jpg.jpeg',
+      '/images/projects/independiente/Relleno_4.jpg.jpeg',
+      '/images/projects/independiente/Relleno_5.jpg.jpeg',
+      '/images/projects/independiente/Relleno_6.jpg.jpeg'
+    ],
+    delay: 0.12,
+    large: true,
   }
 ]
